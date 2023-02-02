@@ -1,0 +1,157 @@
+@import url(./common.css);
+.task-chair-container {
+  width: 100%;
+}
+.task-chair-container .task-chair-wrap {
+  width: 100%;
+  margin: 200px auto;
+}
+.task-chair-container .task-chair-wrap .task-chair-title {
+  width: 80%;
+  margin: 0 auto;
+}
+.task-chair-container .task-chair-wrap .task-chair-title h2 {
+  font-family: "Play", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu a .material-symbols-rounded {
+  font-size: 20px;
+  margin: 0 30px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap {
+  position: relative;
+  margin: 0 15px;
+  padding: 10px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn {
+  display: flex;
+  align-items: center;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-family: "Play", sans-serif;
+  font-size: 1rem;
+  letter-spacing: -1px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn ::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 12px;
+  top: 15px;
+  left: -18px;
+  background-color: #dfdfdf;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn p {
+  margin-right: 15px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn .arrow-box {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9c9c9c;
+  border-radius: 50%;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn .arrow-box > span {
+  font-size: 14px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .drop-down-menu {
+  display: none;
+  position: absolute;
+  background-color: #fcc038;
+  top: 100%;
+  left: -16%;
+  width: 140px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .drop-down-menu li {
+  margin: 10px 0;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .drop-down-menu li a {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+}
+.task-chair-container .task-chair-wrap > img {
+  margin-bottom: 150px;
+}
+.task-chair-container .task-chair-wrap .content-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.task-chair-container .task-chair-wrap .content-container .content01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.task-chair-container .task-chair-wrap .content-container .content01 > img {
+  width: 50%;
+}
+.task-chair-container .task-chair-wrap .content-container .content01 .content01-txt {
+  width: 50%;
+  padding-left: 70px;
+}
+.task-chair-container .task-chair-wrap .content-container .content01 .content01-txt > p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  line-height: 1.75;
+  letter-spacing: -1px;
+}
+.task-chair-container .task-chair-wrap .content-container .content01 .content01-txt > h5 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 36px;
+  margin-top: 10px;
+}
+.task-chair-container .task-chair-wrap .content-container .content01:last-child p {
+  margin-bottom: 55px;
+}
+.task-chair-container .task-chair-wrap .content-container .content01:last-child h5 {
+  margin: 0;
+}
+.task-chair-container .task-chair-wrap .content02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.task-chair-container .task-chair-wrap .content02 > img {
+  width: 50%;
+  order: 2;
+}
+.task-chair-container .task-chair-wrap .content02 .content02-txt {
+  width: 50%;
+  padding-right: 70px;
+  order: 1;
+}
+.task-chair-container .task-chair-wrap .content02 .content02-txt .content02-txt-box:nth-child(1) {
+  margin-bottom: 30px;
+}
+.task-chair-container .task-chair-wrap .content02 .content02-txt .content02-txt-box > h5 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 36px;
+  margin: 0;
+}
+.task-chair-container .task-chair-wrap .content02 .content02-txt .content02-txt-box > h5 > span {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  line-height: 1.75;
+  letter-spacing: -1px;
+  color: #000;
+  font-weight: 400;
+}
+.task-chair-container .task-chair-wrap .content02 .content02-txt .content02-txt-box > p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+}/*# sourceMappingURL=designPhill.css.map */

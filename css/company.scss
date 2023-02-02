@@ -1,0 +1,141 @@
+@import url(./common.css);
+
+.task-chair-container {
+  width: 100%;
+  .task-chair-wrap {
+    width: 100%;
+    margin: 200px auto;
+    .task-chair-title {
+      width: 80%;
+      margin: 0 auto;
+      h2 {
+        font-family: "Play", sans-serif;
+        font-size: 3.5rem;
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+      .side-menu {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          .material-symbols-rounded {
+            font-size: 20px;
+            margin: 0 30px;
+          }
+        }
+        .product-btn-wrap {
+          position: relative;
+          margin: 0 15px;
+          padding: 10px;
+          .product-btn {
+            display: flex;
+            align-items: center;
+            border: 0;
+            outline: 0;
+            background-color: transparent;
+            font-family: "Play", sans-serif;
+            font-size: 1rem;
+            letter-spacing: -1px;
+            ::before {
+              position: absolute;
+              content: "";
+              width: 1px;
+              height: 12px;
+              top: 15px;
+              left: -18px;
+              background-color: #dfdfdf;
+            }
+            p {
+              margin-right: 15px;
+            }
+            .arrow-box {
+              width: 18px;
+              height: 18px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 1px solid #9c9c9c;
+              border-radius: 50%;
+              > span {
+                font-size: 14px;
+              }
+            }
+          }
+          .drop-down-menu {
+            display: none;
+            position: absolute;
+            background-color: #fcc038;
+            top: 100%;
+            left: -16%;
+            width: 140px;
+
+            li {
+              margin: 10px 0;
+              a {
+                padding: 5px 10px;
+                font-size: 14px;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .img-txt-container {
+      width: 100%;
+      height: auto;
+      background-image: url("../Img/company/intro_top_bg.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      .img-txt-box {
+        width: 80%;
+        margin: 0 auto;
+        padding: 150px 0;
+        .top-txt {
+          margin-bottom: 20%;
+          > p {
+            font-size: 28px;
+            font-family: "Noto Sans KR", sans-serif;
+            margin-bottom: 30px;
+            line-height: 1.5em;
+            letter-spacing: -1px;
+            color: #fff;
+          }
+          > h4 {
+            font-size: 60px;
+            font-family: "Noto Sans KR", sans-serif;
+            line-height: 1.3em;
+            letter-spacing: -3px;
+            color: #fff;
+          }
+        }
+        .bottom-txt {
+          margin-left: 50%;
+          p {
+            font-family: "Noto Sans KR", sans-serif;
+            font-size: 36px;
+            line-height: 1.44em;
+            letter-spacing: -2.3px;
+            color: #fff;
+            margin-bottom: 30px;
+          }
+
+          .bottom-sub-txt {
+            font-family: "Noto Sans KR", sans-serif;
+            font-size: 20px;
+            line-height: 1.9em;
+            letter-spacing: -1.5px;
+            color: #fff;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}

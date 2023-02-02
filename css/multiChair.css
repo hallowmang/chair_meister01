@@ -1,0 +1,153 @@
+@import url(./common.css);
+.task-chair-container {
+  width: 100%;
+}
+.task-chair-container .task-chair-wrap {
+  width: 80%;
+  margin: 200px auto;
+}
+.task-chair-container .task-chair-wrap .task-chair-title {
+  text-align: center;
+}
+.task-chair-container .task-chair-wrap .task-chair-title h2 {
+  font-family: "Play", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu a .material-symbols-rounded {
+  font-size: 20px;
+  margin: 0 30px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap {
+  position: relative;
+  margin: 0 15px;
+  padding: 10px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn {
+  display: flex;
+  align-items: center;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-family: "Play", sans-serif;
+  font-size: 1rem;
+  letter-spacing: -1px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn ::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 12px;
+  top: 15px;
+  left: -18px;
+  background-color: #dfdfdf;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn p {
+  margin-right: 15px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn .arrow-box {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9c9c9c;
+  border-radius: 50%;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .product-btn .arrow-box > span {
+  font-size: 14px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .drop-down-menu {
+  display: none;
+  position: absolute;
+  background-color: #fcc038;
+  top: 100%;
+  left: -16%;
+  width: 140px;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .drop-down-menu li {
+  margin: 10px 0;
+}
+.task-chair-container .task-chair-wrap .task-chair-title .side-menu .product-btn-wrap .drop-down-menu li a {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+}
+.task-chair-container .task-chair-wrap .chairs {
+  width: 100%;
+}
+.task-chair-container .task-chair-wrap .chairs ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.task-chair-container .task-chair-wrap .chairs ul li {
+  margin: 32px 0;
+  width: 25%;
+}
+.task-chair-container .task-chair-wrap .chairs ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-chair-container .task-chair-wrap .chairs ul li a div {
+  width: 100%;
+  height: 18vw;
+}
+.task-chair-container .task-chair-wrap .chairs ul li a div img {
+  width: 100%;
+  max-height: 100%;
+}
+.task-chair-container .task-chair-wrap .chairs ul li a p {
+  margin-top: 30px;
+  font-weight: 600;
+}
+.task-chair-container .task-chair-wrap .arrows-wrap {
+  width: 16%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px auto;
+}
+.task-chair-container .task-chair-wrap .arrows-wrap a:nth-of-type(3) {
+  width: 20px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.5;
+  border-bottom: 2px solid #000;
+}
+.task-chair-container .task-chair-wrap .search-container {
+  text-align: center;
+}
+.task-chair-container .task-chair-wrap .search-container form .search-wrap {
+  width: 480px;
+  height: 53px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #000;
+}
+.task-chair-container .task-chair-wrap .search-container form .search-wrap input {
+  width: 85%;
+  padding: 5px;
+  margin: 0 15px;
+  border: none;
+}
+.task-chair-container .task-chair-wrap .search-container form .search-wrap input::-moz-placeholder {
+  color: #bdbdbd;
+}
+.task-chair-container .task-chair-wrap .search-container form .search-wrap input:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.task-chair-container .task-chair-wrap .search-container form .search-wrap input::placeholder {
+  color: #bdbdbd;
+}/*# sourceMappingURL=multiChair.css.map */
