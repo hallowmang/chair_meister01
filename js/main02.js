@@ -30,23 +30,6 @@ function init() {
       el: ".swiper-pagination",
       /* type: "progressbar", */
     },
-
-    /* 프로그래스바 */
-    /* on: {
-      slideChange: function (e) {
-        let rIdx = e.realIndex;
-        let aa = 0;
-        let endTime = e.passedParams.autoplay.delay;
-
-        const bars = document.querySelectorAll(".bars span");
-
-        setInterval(() => {
-          aa += 10;
-          bars[rIdx].style = `width:${aa}%`;
-        }, 250);
-        clearInterval(bars);
-      },
-    }, */
   });
 }
 window.addEventListener("load", init);

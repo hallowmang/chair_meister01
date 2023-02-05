@@ -319,12 +319,15 @@
   background-color: #2f2f2f;
 }
 .main-container .main-contents-wrap .main-exhibition-container .main-exhibition-wrap .release ul li a .release-box h5 {
+  color: #2f2f2f;
   font-size: 20px;
 }
 .main-container .main-contents-wrap .main-exhibition-container .main-exhibition-wrap .release ul li a .release-box > p {
+  color: #2f2f2f;
   font-size: 15px;
 }
 .main-container .main-contents-wrap .main-exhibition-container .main-exhibition-wrap .release ul li a .release-box > span {
+  color: rgba(47, 47, 47, 0.6);
   font-size: 14px;
   margin-top: 25px;
 }
