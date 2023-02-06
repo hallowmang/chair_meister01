@@ -24,6 +24,7 @@
   align-items: center;
 }
 .task-chair-container .task-chair-wrap .task-chair-title .side-menu a .material-symbols-rounded {
+  color: #3f3f3f;
   font-size: 20px;
   margin: 0 30px;
 }
@@ -117,7 +118,10 @@
   justify-content: space-evenly;
   margin: 60px auto;
 }
-.task-chair-container .task-chair-wrap .arrows-wrap a:nth-of-type(3) {
+.task-chair-container .task-chair-wrap .arrows-wrap a {
+  color: #3f3f3f;
+}
+.task-chair-container .task-chair-wrap .arrows-wrap a :nth-of-type(3) {
   width: 20px;
   text-align: center;
   font-weight: 600;

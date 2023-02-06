@@ -22,6 +22,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  cursor: pointer;
 }
 .site-map-container .site-map-wrap .btn-title-wrap button span {
   color: #fcc038;

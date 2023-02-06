@@ -271,7 +271,7 @@ code {
 //     }
 //   }
 // }
-/* 스크롤시 배경 */
+/* 스크롤시 배경 및 글자색상 변경 */
 .active {
   background-color: #fff;
   a {
@@ -280,7 +280,12 @@ code {
 }
 
 .on {
-  color: red;
+  span {
+    color: #000;
+  }
+}
+.icon-color{
+  color: #000;
 }
 
 header {
@@ -305,7 +310,7 @@ header {
       width: 85%;
       content: "";
       display: block;
-      border-bottom: 1px solid #e5e5e5;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
       position: absolute;
       top: 33px;
       right: -96px;
@@ -346,14 +351,15 @@ header {
   .header-bottom {
     width: 100%;
     display: flex;
-    padding: 30px 0;
+    padding: 33px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
     .logo {
-      height: 130px;
+      height: 128px;
       position: absolute;
       top: 50%;
       left: 4%;
       transform: translateY(-50%);
-      border-right: 1px solid #e5e5e5;
+      border-right: 1px solid rgba(255,255,255,0.2);
       padding: 20px 88px 0 55px;
     }
     nav {
@@ -410,6 +416,10 @@ header {
                 padding: 10px;
                 float: none;
                 a {
+                  color: #8d8d8d;
+                  &:hover{
+                    color: #000;
+                  }
                   span {
                     position: relative;
                     width: 100%;

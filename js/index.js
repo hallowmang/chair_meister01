@@ -2,16 +2,39 @@ $("body").prepend("<header>");
 $("body").append("<footer>");
 
 $("header").load("./inc.html header", head);
-$("footer").load("./inc.html footer");
+$("footer").load("./inc.html footer", bottom);
 
-const Header = document.querySelector("header");
-const Bottom = document.querySelector("header > .header-top > span");
-console.log(Header);
-console.log(Bottom);
+let Header;
+let Bottom;
+let NavUl;
+let Bg;
+let Logo;
+let Icon;
+let IconMenu;
 
 let idx = localStorage.idx;
 
+function bottom() {
+  Logo = document.querySelector("h1>a>img");
+  Bottom = document.querySelector("header > .header-bottom > nav");
+  NavUl = document.querySelector("ul > li")
+  Icon = document.querySelector(".header-util-box > .language >i");
+  IconMenu = document.querySelector(".header-util-box > .menu >i");
+  Bg = document.querySelector(".bg");
+  console.log(NavUl)
+}
+
 function head() {
+  Header = document.querySelector("header");
+  
+  
+
+  
+
+  NavUl.addEventListener("mouseover", (event) => {
+    Bg.style.color = 'red'
+  });
+
   $(".nav-bottom>ul>li").eq(idx).addClass("on");
 
   $(".logo").click(function () {
@@ -34,17 +57,26 @@ function head() {
 function headerActive() {
   window.addEventListener("scroll", () => {
     if (window.pageYOffset == 0) {
-      // headBar.classList.remove('active');
-      // moHeadBar.classList.remove('m_active');
-      // moMenuBar.classList.remove('m_menu_active');
       Header.classList.remove("active");
       Bottom.classList.remove("on");
+      Logo.src = "./Img/logo/logo.png";
+      Icon.classList.remove("icon-color");
+      IconMenu.classList.remove("icon-color");
     } else {
-      // headBar.classList.add("active");
-      // moHeadBar.classList.add("m_active");
       Header.classList.add("active");
       Bottom.classList.add("on");
+      Logo.src = "./Img/logo/logo_c.png";
+      Icon.classList.add("icon-color");
+      IconMenu.classList.add("icon-color");
     }
   });
 }
+
+function background() {
+  Bottom = document.querySelector("header > .header-bottom > nav");
+  Bottom.addEventListener("mouseover", () => {
+    console.log("sdifnwe");
+  });
+}
+
 headerActive();
